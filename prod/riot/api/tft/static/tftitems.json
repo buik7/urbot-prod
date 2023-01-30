@@ -1,0 +1,75 @@
+[
+    {
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/maps/particles/tft/item_icons/standard/chain_vest.png",
+        "name": "Chain Vest",
+        "effectName": "20 armor",
+        "stats": {
+            "armor": 20
+        },
+        "discordIcon": "<:chain_vest:1069017679702261871>"
+    },
+    {
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/maps/particles/tft/item_icons/standard/bf_sword.png",
+        "name": "B.F. Sword",
+        "effectName": "15 attack damage",
+        "stats": {
+            "physicalDamage": 15
+        },
+        "discordIcon": "<:bf_sword:1069017677898727574>"
+    },
+    {
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/maps/particles/tft/item_icons/standard/recurve_bow.png",
+        "name": "Recurve Bow",
+        "effectName": "20% armor penetration",
+        "stats": {
+            "physicalDamagePen": 20
+        },
+        "discordIcon": "<:recurve_bow:1069017685180031046>"
+    },
+    {
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/maps/particles/tft/item_icons/standard/tear_of_the_goddess.png",
+        "name": "Tear of the Goddess",
+        "effectName": "15% magic penetration",
+        "stats": {
+            "magicDamagePen": 15
+        },
+        "discordIcon": "<:tear_of_the_goddess:1069017687105224705>"
+    },
+    {
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/maps/particles/tft/item_icons/standard/negatron_cloak.png",
+        "name": "Negatron Cloak",
+        "effectName": "15 magic resist",
+        "stats": {
+            "magicResist": 15
+        },
+        "discordIcon": "<:negatron_cloak:1069017684026609736>"
+    },
+    {
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/maps/particles/tft/item_icons/standard/sparring_gloves.png",
+        "name": "Sparring Gloves",
+        "effectName": "10% critical strike chance",
+        "stats": {
+            "physicalCritChance": 10,
+            "magicCritChance": 10
+        },
+        "discordIcon": "<:sparring_gloves:1069017686245384264>"
+    },
+    {
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/maps/particles/tft/item_icons/standard/gaints_belt.png",
+        "name": "Giant's Belt",
+        "effectName": "100 health",
+        "stats": {
+            "hp": 100
+        },
+        "discordIcon": "<:gaints_belt:1069017680960552990>"
+    },
+    {
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/maps/particles/tft/item_icons/standard/needlessly_large_rod.png",
+        "name": "Needlessly Large Rod",
+        "effectName": "15 magic damage",
+        "stats": {
+            "magicDamage": 15
+        },
+        "discordIcon": "<:needlessly_large_rod:1069017681971384421>"
+    }
+]

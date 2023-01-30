@@ -1,0 +1,23 @@
+{
+  "name": "urbot",
+  "version": "1.0.0",
+  "main": "./prod/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./prod/index.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.4.0",
+    "@discordjs/rest": "^1.5.0",
+    "axios": "^1.2.2",
+    "discord-api-types": "^0.37.26",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "http-status-codes": "^2.2.0",
+    "mongoose": "^6.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "eslint": "^8.31.0"
+  }
+}

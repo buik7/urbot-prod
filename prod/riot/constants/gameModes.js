@@ -1,0 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.GameModes = void 0;
+var GameModes;
+(function (GameModes) {
+    GameModes["CLASSIC"] = "CLASSIC";
+    GameModes["ODIN"] = "ODIN";
+    GameModes["ARAM"] = "ARAM";
+    GameModes["TUTORIAL"] = "TUTORIAL";
+    GameModes["URF"] = "URF";
+    GameModes["DOOMBOTSTEEMO"] = "DOOMBOTSTEEMO";
+    GameModes["ONEFORALL"] = "ONEFORALL";
+    GameModes["ASCENSION"] = "ASCENSION";
+    GameModes["FIRSTBLOOD"] = "FIRSTBLOOD";
+    GameModes["KINGPORO"] = "KINGPORO";
+    GameModes["SIEGE"] = "SIEGE";
+    GameModes["ASSASSINATE"] = "ASSASSINATE";
+    GameModes["ARSR"] = "ARSR";
+    GameModes["DARKSTAR"] = "DARKSTAR";
+    GameModes["STARGUARDIAN"] = "STARGUARDIAN";
+    GameModes["PROJECT"] = "PROJECT";
+    GameModes["GAMEMODEX"] = "GAMEMODEX";
+    GameModes["ODYSSEY"] = "ODYSSEY";
+})(GameModes = exports.GameModes || (exports.GameModes = {}));

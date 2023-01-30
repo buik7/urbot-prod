@@ -1,0 +1,828 @@
+[
+    {
+        "ability": {
+            "desc": "Sylas whirls his chains around him, dealing 300%/375%/450% of his maximum Health as magic damage to nearby enemies and healing himself for 150/170/190 Health.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/sylas/hud/icons2d/sylasq.png",
+            "name": "Battle Blast"
+        },
+        "apiName": "TFT8_Sylas",
+        "cost": 1,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_sylas.tft_set8.png",
+        "name": "Sylas",
+        "stats": { "armor": 45, "damage": 50, "hp": 700, "magicResist": 45 },
+        "traits": ["Anima Squad", "Renegade"],
+        "id": 517
+    },
+    {
+        "ability": {
+            "desc": "Nasus slams his staff on his target, dealing 60/90/135 physical damage and 40% Chilling them for 3 seconds.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/nasus/hud/icons2d/nasus_q.png",
+            "name": "Bonk!"
+        },
+        "apiName": "TFT8_Nasus",
+        "cost": 1,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_nasus.tft_set8.png",
+        "name": "Nasus",
+        "stats": { "armor": 40, "damage": 65, "hp": 650, "magicResist": 40 },
+        "traits": ["Anima Squad", "Mascot"],
+        "id": 75
+    },
+    {
+        "ability": {
+            "desc": "Jinx fires a rocket at her target that explodes on impact, damaging all nearby enemies for 225/335/525 magic damage and Stunning them for 3 seconds.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/jinx/hud/icons2d/jinx_q1.png",
+            "name": "Fishbones"
+        },
+        "apiName": "TFT8_Jinx",
+        "cost": 2,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_jinx.tft_set8.png",
+        "name": "Jinx",
+        "stats": { "armor": 20, "damage": 50, "hp": 550, "magicResist": 20 },
+        "traits": ["Anima Squad", "Prankster"],
+        "id": 222
+    },
+    {
+        "ability": {
+            "desc": "Vayne fires a heavy bolt at her target, dealing 18/25/45 true damage.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/vayne/hud/icons2d/vayne_condemn.png",
+            "name": "Silver Bolt"
+        },
+        "apiName": "TFT8_Vayne",
+        "cost": 3,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_vayne.tft_set8.png",
+        "name": "Vayne",
+        "stats": { "armor": 25, "damage": 60, "hp": 600, "magicResist": 25 },
+        "traits": ["Anima Squad", "Recon", "Duelist"],
+        "id": 67
+    },
+    {
+        "ability": {
+            "desc": "Riven gains a 325/400/500 Health shield for 4 seconds and empowers her next 3 attacks with 90/135/225 bonus magic damage. If Riven has more Health than her target, she deals 100% more bonus magic damage.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/riven/hud/icons2d/rivenbladeoftheexile.png",
+            "name": "Bunny Blade"
+        },
+        "apiName": "TFT8_Riven",
+        "cost": 3,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_riven.tft_set8.png",
+        "name": "Riven",
+        "stats": { "armor": 45, "damage": 50, "hp": 700, "magicResist": 45 },
+        "traits": ["Anima Squad", "Brawler", "Defender"],
+        "id": 92
+    },
+    {
+        "ability": {
+            "desc": "Miss Fortune fires 8 waves of bullets in her target's direction within channels for 2 seconds. Enemies take 45/65/210 magic damage from the first bullet that hits them, and 25/35/105 magic damage from any other bullets that hit.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/missfortune/hud/icons2d/missfortune_r.png",
+            "name": "Bullet Time"
+        },
+        "apiName": "TFT8_MissFortune",
+        "cost": 4,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_missfortune.tft_set8.png",
+        "name": "Miss Fortune",
+        "stats": { "armor": 30, "damage": 60, "hp": 750, "magicResist": 30 },
+        "traits": ["Anima Squad", "Ace"],
+        "id": 21
+    },
+    {
+        "ability": {
+            "desc": "Galio dashes towards the nearest enemy, dealing 150/225/335 magic damage. He then grants himself and the closest ally a 200/240/280 Health shield for 4 seconds. ",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/galio/hud/icons2d/galio_e.png",
+            "name": "Outta My Way!"
+        },
+        "apiName": "TFT8_Galio",
+        "cost": 1,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_galio.tft_set8.png",
+        "name": "Galio",
+        "stats": { "armor": 45, "damage": 50, "hp": 650, "magicResist": 45 },
+        "traits": ["Civilian", "Mascot"],
+        "id": 3
+    },
+    {
+        "ability": {
+            "desc": "Sivir throws her pizza at her target, dealing 400% of her physical damage. It then splits into slices and gets delivered to the 3 nearest allies, healing them for 80/100/125 Health.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/sivir/hud/icons2d/sivir_q.png",
+            "name": "Pizza Delivery"
+        },
+        "apiName": "TFT8_Sivir",
+        "cost": 2,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_sivir.tft_set8.png",
+        "name": "Sivir",
+        "stats": { "armor": 20, "damage": 65, "hp": 600, "magicResist": 20 },
+        "traits": ["Civilian", "Sureshot"],
+        "id": 15
+    },
+    {
+        "ability": {
+            "desc": "Janna sends a twister towards the largest group of enemies. The twister expands when it reaches its destination, knocking all nearby enemies up in the air, <TFTKeyword>Stunning</TFTKeyword> them for @StunDuration@ seconds, and dealing @ModifiedDamagePerSec@ magic damage each second for @DamageDuration@ seconds.<br><br><tftitemrules><tftbold>Stun</tftbold>: cannot move, attack, or cast Abilities</tftitemrules>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/janna/hud/icons2d/janna_reapthewhirlwind.png",
+            "name": "Twister!"
+        },
+        "apiName": "TFT8_Janna",
+        "cost": 5,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_janna.tft_set8.png",
+        "name": "Janna",
+        "stats": { "armor": 35, "damage": 50, "hp": 800, "magicResist": 35 },
+        "traits": ["Civilian", "Spellslinger", "Forecaster"],
+        "id": 40
+    },
+    {
+        "ability": {
+            "desc": "Taliyah summons a torrent of spiraling rocks in a line of enemy units, dealing 70/100/250 magic damage to all enemies it hits. After a brief delay, the wall explodes, dealing 200/300/900 additional magic damage to nearby enemies.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/taliyah/hud/icons2d/taliyah_r.png",
+            "name": "Weaver's Wall"
+        },
+        "apiName": "TFT8_Taliyah",
+        "cost": 4,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_taliyah.tft_set8.png",
+        "name": "Taliyah",
+        "stats": { "armor": 30, "damage": 45, "hp": 700, "magicResist": 30 },
+        "traits": ["Star Guardian", "Spellslinger"],
+        "id": 163
+    },
+    {
+        "ability": {
+            "desc": "Lux sends out a singularity to a random enemy. When it detonates, it reduces the target's Attack Damage by 40% for 4 seconds, and deals 200/350/450 to nearby enemies.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/lux/hud/icons2d/luxlightstrikekugel.png",
+            "name": "Lucent Singularity"
+        },
+        "apiName": "TFT8_Lux",
+        "cost": 1,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_lux.tft_set8.png",
+        "name": "Lux",
+        "stats": { "armor": 15, "damage": 40, "hp": 500, "magicResist": 15 },
+        "traits": ["Star Guardian", "Spellslinger"],
+        "id": 99
+    },
+    {
+        "ability": {
+            "desc": "Nilah whirls her whip-blade, dealing 90/135/225 magic damage to nearby enemies while healing herself and allies for 250/300/350 Health over 1 seconds. She finishes with a burst that deals 90/135/225 magic damage.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/nilah/hud/icons2d/nilahr.nilah.png",
+            "name": "Apotheosis"
+        },
+        "apiName": "TFT8_Nilah",
+        "cost": 3,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_nilah.tft_set8.png",
+        "name": "Nilah",
+        "stats": { "armor": 50, "damage": 45, "hp": 800, "magicResist": 50 },
+        "traits": ["Star Guardian", "Duelist"],
+        "id": 895
+    },
+    {
+        "ability": {
+            "desc": "Passive: Kai'Sa's attacks apply Plasma. Her next attack against a target with 2 stacks of Plasma deals @ModifiedDamage@ magic damage.<br><br>Active: Kai'Sa gains @AttackSpeed*100@% Attack Speed for @Duration@ seconds. This bonus stacks!<br>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/kaisa/hud/icons2d/kaisa_e2.png",
+            "name": "Starcharged"
+        },
+        "apiName": "TFT8_Kaisa",
+        "cost": 3,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_kaisa.tft_set8.png",
+        "name": "Kai'Sa",
+        "stats": { "armor": 25, "damage": 35, "hp": 650, "magicResist": 25 },
+        "traits": ["Star Guardian", "Recon"],
+        "id": 145
+    },
+    {
+        "ability": {
+            "desc": "Rell forms a tether between herself and her lowest percent Health ally, dealing @ModifiedDamage@ magic damage to all enemies between herself and her bound ally. She also grants herself and her bound ally @Resists@% of Rell's current Armor and Magic Resist for @Duration@ seconds.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/rell/hud/icons2d/relle.png",
+            "name": "Iron Bond"
+        },
+        "apiName": "TFT8_Rell",
+        "cost": 2,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_rell.tft_set8.png",
+        "name": "Rell",
+        "stats": { "armor": 50, "damage": 60, "hp": 750, "magicResist": 50 },
+        "traits": ["Star Guardian", "Defender"],
+        "id": 526
+    },
+    {
+        "ability": {
+            "desc": "Ekko dives in, granting himself a @ModifiedShieldAmount@ shield for @Duration@ seconds and taunts nearby enemies. When the shield breaks, he emits a time field, dealing @ModifiedDamage@ to nearby enemies and slowing their attack speed by @ASReduction*100@% for @SlowDuration@ seconds.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/ekko/hud/icons2d/ekko_e.png",
+            "name": "Star Diver"
+        },
+        "apiName": "TFT8_Ekko",
+        "cost": 4,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_ekko.tft_set8.png",
+        "name": "Ekko",
+        "stats": { "armor": 60, "damage": 60, "hp": 1000, "magicResist": 60 },
+        "traits": ["Star Guardian", "Prankster", "Aegis"],
+        "id": 245
+    },
+    {
+        "ability": {
+            "desc": "Syndra grants a @ModifiedShieldAmount@ Health shield to a random champion on your bench, then flings them into the arena inside an orb at her closest enemy. The orb deals @ModifiedDamage@ magic damage to enemies hit. <br><br><tftitemrules>Traits of champions flung onto the board do not become active, except for Corrupted.</tftitemrules>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/syndra/hud/icons2d/syndraw2.png",
+            "name": "Force of Will"
+        },
+        "apiName": "TFT8_Syndra",
+        "cost": 5,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_syndra.tft_set8.png",
+        "name": "Syndra",
+        "stats": { "armor": 40, "damage": 40, "hp": 850, "magicResist": 40 },
+        "traits": ["Star Guardian", "Heart"],
+        "id": 134
+    },
+    {
+        "ability": {
+            "desc": "Sett gains a @ModifiedShieldAmount@ Health shield and becomes immune to crowd control for @Duration@ seconds. He charges up while the shield is active; when the shield breaks or expires, he deals <scaleAD>@MinADDamage@</scaleAD> physical damage in a cone to all enemies caught within the blast. The blast damage increases, up to <scaleAD>@MaxADDamage@</scaleAD>, depending on how long Sett was charged up.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/sett/hud/icons2d/sett_w.png",
+            "name": "Mecha SLAM!"
+        },
+        "apiName": "TFT8_Sett",
+        "cost": 4,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_sett.tft_set8.png",
+        "name": "Sett",
+        "stats": { "armor": 60, "damage": 90, "hp": 1000, "magicResist": 60 },
+        "traits": ["Mecha:PRIME", "Defender"],
+        "id": 875
+    },
+    {
+        "ability": {
+            "desc": "Draven hurls 2 massive axes at his target's direction, which reverse on the way back to him. Enemies caught in their path take <scaleAD>@TotalDamage@</scaleAD> physical damage (@ADpercent*100@% Attack Damage %i:scaleAD% + @ModifiedDamage@), reduced by @FallOffPercent*100@% for each enemy they have already passed through.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/draven/hud/icons2d/draven_whirlingdeath.png",
+            "name": "Whirling Death"
+        },
+        "apiName": "TFT8_Draven",
+        "cost": 2,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_draven.tft_set8.png",
+        "name": "Draven",
+        "stats": { "armor": 20, "damage": 65, "hp": 600, "magicResist": 20 },
+        "traits": ["Mecha:PRIME", "Ace"],
+        "id": 119
+    },
+    {
+        "ability": {
+            "desc": "Leona locks onto her target and calls down an orbital laser strike. The laser deals @ModifiedMaxHealthPerSec@ true damage per second to the target until the target dies, and @ModifiedDamage@ magic damage to nearby enemies.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/leona/hud/icons2d/leonazenithblade.png",
+            "name": "Deus Ex Machina"
+        },
+        "apiName": "TFT8_Leona",
+        "cost": 5,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_leona.tft_set8.png",
+        "name": "Leona",
+        "stats": { "armor": 60, "damage": 75, "hp": 1100, "magicResist": 60 },
+        "traits": ["Mecha:PRIME", "Renegade", "Aegis"],
+        "id": 89
+    },
+    {
+        "ability": {
+            "desc": "Passive: Jax leaps to his target and deals @BaseDamage@ bonus magic damage every 3rd attack. The bonus damage increases by @ModifiedStackDamage@ every 3rd attack, and stacks up to @TotalStacks@ times.<br><br>Bonus Damage on hit: @TFTUnitProperty.:TFT8_Jax_TotalDamage@",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/jax/hud/icons2d/armsmaster_relentlessassault.png",
+            "name": "Adaptive Strike"
+        },
+        "apiName": "TFT8_Jax",
+        "cost": 3,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_jax.tft_set8.png",
+        "name": "Jax",
+        "stats": { "armor": 45, "damage": 45, "hp": 800, "magicResist": 45 },
+        "traits": ["Mecha:PRIME", "Brawler"],
+        "id": 24
+    },
+    {
+        "ability": {
+            "desc": "Sejuani throws a cryo grenade at the closest enemy that explodes after a @ExplosionDelay@-second delay. Enemies within a @HexRadius@ hexes are <TFTKeyword>Stunned</TFTKeyword> for @StunDuration@ seconds, and take @ModifiedDamage@ magic damage.<br><br><tftitemrules><tftbold>Stun</tftbold>: cannot move, attack, or cast Abilities</tftitemrules>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/sejuani/hud/icons2d/sejuani_w.png",
+            "name": "Cryo Grenade"
+        },
+        "apiName": "TFT8_Sejuani",
+        "cost": 4,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_sejuani.tft_set8.png",
+        "name": "Sejuani",
+        "stats": { "armor": 60, "damage": 60, "hp": 950, "magicResist": 60 },
+        "traits": ["LaserCorps", "Brawler"],
+        "id": 113
+    },
+    {
+        "ability": {
+            "desc": "Ashe gains <scaleAD>@TotalDamage@</scaleAD> Attack Damage (@ADPercent*100@% Attack Damage %i:scaleAD% + @ModifiedADGain@) for the next @Duration@ seconds.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/ashe/hud/icons2d/ashe_q.png",
+            "name": "Ranger's Focus"
+        },
+        "apiName": "TFT8_Ashe",
+        "cost": 1,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_ashe.tft_set8.png",
+        "name": "Ashe",
+        "stats": { "armor": 15, "damage": 55, "hp": 500, "magicResist": 15 },
+        "traits": ["LaserCorps", "Recon"],
+        "id": 22
+    },
+    {
+        "ability": {
+            "desc": "Senna fires a laser beam in the direction of a nearby enemy, dealing <scaleAD>@TotalDamage@</scaleAD> physical damage (@ADPercent*100@% Attack Damage %i:scaleAD% + @ModifiedDamage@) to all enemies in a line.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/senna/hud/icons2d/senna_q.png",
+            "name": "Piercing Darkness"
+        },
+        "apiName": "TFT8_Senna",
+        "cost": 3,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_senna.tft_set8.png",
+        "name": "Senna",
+        "stats": { "armor": 25, "damage": 70, "hp": 650, "magicResist": 25 },
+        "traits": ["LaserCorps", "Sureshot"],
+        "id": 235
+    },
+    {
+        "ability": {
+            "desc": "Zed teleports behind his target, <TFTKeyword>Sunders</TFTKeyword> @ArmorShred@ Armor for @ArmorSeconds@ seconds and enters KILL MODE for @Duration@ seconds: Attacks deal @ModifiedAutoAttackBonus@ bonus physical damage and every 3rd attack deals <scaleAD>@ModifiedPhysicalDamage@</scaleAD> physical damage (@ADAmount*100@% Attack Damage %i:scaleAD% + @ModifiedAutoAttackBonus@) to all adjacent enemies.<br><br><tftitemrules><tftbold>Sunder</tftbold>: reduce Armor</tftitemrules><br>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/zed/hud/icons2d/shadowninja_r.png",
+            "name": "Empowered Kill Mode"
+        },
+        "apiName": "TFT8_Zed",
+        "cost": 4,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_zed.tft_set8.png",
+        "name": "Zed",
+        "stats": { "armor": 45, "damage": 80, "hp": 950, "magicResist": 45 },
+        "traits": ["LaserCorps", "Duelist", "Hacker"],
+        "id": 238
+    },
+    {
+        "ability": {
+            "desc": "Mordekaiser transports the arena into his realm for @RealmDuration@ seconds.  He @MRShred*100@% <TFTKeyword>Shreds</TFTKeyword> ALL enemies, then slams a building onto the arena that deals @ModifiedDamage@ magic damage to enemies hit.<br><br><tftitemrules><tftbold>Shred</tftbold>: reduce Magic Resist</tftitemrules>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/mordekaiser/hud/icons2d/mordekaiserr.png",
+            "name": "Skylines"
+        },
+        "apiName": "TFT8_Mordekaiser",
+        "cost": 5,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_mordekaiser.tft_set8.png",
+        "name": "Mordekaiser",
+        "stats": { "armor": 70, "damage": 70, "hp": 1200, "magicResist": 70 },
+        "traits": ["LaserCorps", "Ace"],
+        "id": 82
+    },
+    {
+        "ability": {
+            "desc": "Annie blasts a cone of fire, dealing @ModifiedDamage@ magic damage to enemies in front of her, then creates a @ModifiedShield@ Health shield on herself for @ShieldDuration@ seconds.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/annie/hud/icons2d/annie_q.png",
+            "name": "Burst Shield"
+        },
+        "apiName": "TFT8_Annie",
+        "cost": 2,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_annie.tft_set8.png",
+        "name": "Annie",
+        "stats": { "armor": 40, "damage": 40, "hp": 750, "magicResist": 40 },
+        "traits": ["Gadgeteen", "Ox Force", "Spellslinger"],
+        "id": 1
+    },
+    {
+        "ability": {
+            "desc": "Fiora lunges at her enemy, dealing <scaleAD>@ModifiedDamage@</scaleAD> physical damage (@PercentAttackDamage@% Attack Damage %i:scaleAD%) to all enemies hit. For the next @BuffDuration@ seconds, she takes @DamageReductionPercent@% less damage and her attacks restore @ModifiedHeal@ Health. ",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/fiora/hud/icons2d/fiora_w.png",
+            "name": "En Garde!"
+        },
+        "apiName": "TFT8_Fiora",
+        "cost": 2,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_fiora.tft_set8.png",
+        "name": "Fiora",
+        "stats": { "armor": 45, "damage": 50, "hp": 800, "magicResist": 45 },
+        "traits": ["Ox Force", "Duelist"],
+        "id": 114
+    },
+    {
+        "ability": {
+            "desc": "Alistar slams the ground underneath his target, dealing @ModifiedDamage@ magic damage and knocking them up for @StunDuration@ seconds. He then roars, healing himself and the lowest health ally champion for @MaxHealthPercent*100@% of his maximum Health. ",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/alistar/hud/icons2d/alistar_q.png",
+            "name": "Pulverize"
+        },
+        "apiName": "TFT8_Alistar",
+        "cost": 3,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_alistar.tft_set8.png",
+        "name": "Alistar",
+        "stats": { "armor": 50, "damage": 50, "hp": 800, "magicResist": 50 },
+        "traits": ["Ox Force", "Mascot", "Aegis"],
+        "id": 12
+    },
+    {
+        "ability": {
+            "desc": "Place Aphelios on the board to choose his Ability. ",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/aphelios/hud/icons2d/apheliosr.png",
+            "name": "Weapons of the Faithful"
+        },
+        "apiName": "TFT8_Aphelios",
+        "cost": 5,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_aphelios.tft_set8.png",
+        "name": "Aphelios",
+        "stats": { "armor": 30, "damage": 75, "hp": 800, "magicResist": 30 },
+        "traits": ["Ox Force", "Sureshot", "Arsenal"],
+        "id": 523
+    },
+    {
+        "ability": {
+            "desc": "Viego becomes unstoppable, leaping to the largest cluster of nearby enemies and slamming his sword down on the enemy with the lowest Health, dealing @ModifiedDamage@ magic damage to the primary target and @ModifiedAOEDamage@ magic damage to enemies nearby. If Viego kills an enemy, he casts again but deals @DamageFalloffPercent*100@% less damage.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/viego/hud/icons2d/viego_r.png",
+            "name": "Heartbreaker"
+        },
+        "apiName": "TFT8_Viego",
+        "cost": 4,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_viego.tft_set8.png",
+        "name": "Viego",
+        "stats": { "armor": 50, "damage": 60, "hp": 950, "magicResist": 50 },
+        "traits": ["Ox Force", "Renegade"],
+        "id": 234
+    },
+    {
+        "ability": {
+            "desc": "Kayle's next @AttackCount@ attacks deal <scaleAD>@ModifiedPercentDamage@</scaleAD> physical damage (@PercentAttackDamage*100@% Attack Damage %i:scaleAD%) to her target, and @ModifiedBonusDamage@ magic damage to enemies within 1 hex of the target.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/kayle/hud/icons2d/kayle_e2.png",
+            "name": "Starfire Spellblade"
+        },
+        "apiName": "TFT8_Kayle",
+        "cost": 1,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_kayle.tft_set8.png",
+        "name": "Kayle",
+        "stats": { "armor": 15, "damage": 50, "hp": 500, "magicResist": 15 },
+        "traits": ["Underground", "Duelist"],
+        "id": 10
+    },
+    {
+        "ability": {
+            "desc": "Vi grants herself a @ModifiedShieldAmount@ Health shield for @ShieldDuration@ seconds and @ArmorShredPercent*100@% <TFTKeyword>Sunders</TFTKeyword> nearby enemies for @ArmorShredDuration@ seconds. Then she deals <scaleAD>@TotalDamage@</scaleAD> physical damage to nearby enemies (@ADPercent*100@% Attack Damage %i:scaleAD%).<br><br><tftitemrules><tftbold>Sunder</tftbold>: reduce Armor</tftitemrules><br>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/vi/hud/icons2d/viw.png",
+            "name": "Blast Shield"
+        },
+        "apiName": "TFT8_Vi",
+        "cost": 2,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_vi.tft_set8.png",
+        "name": "Vi",
+        "stats": { "armor": 45, "damage": 50, "hp": 700, "magicResist": 45 },
+        "traits": ["Underground", "Brawler", "Aegis"],
+        "id": 254
+    },
+    {
+        "ability": {
+            "desc": "Samira rapidly fires bullets that deal a total of <scaleAD>@TotalDamage@</scaleAD> physical damage (@DamagePercent*100@% Attack Damage %i:scaleAD% + @ModifiedBonusDamage@). Bullets ricochet to nearby enemies for @ReducedDamagePercent*100@% less damage.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/samira/hud/icons2d/samirap.png",
+            "name": "Flair"
+        },
+        "apiName": "TFT8_Samira",
+        "cost": 4,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_samira.tft_set8.png",
+        "name": "Samira",
+        "stats": { "armor": 30, "damage": 70, "hp": 700, "magicResist": 30 },
+        "traits": ["Underground", "Sureshot", "Ace"],
+        "id": 360
+    },
+    {
+        "ability": {
+            "desc": "Sona fires @NumSignals@ beams that cycle between 3 phases:<br><br>1: Deal @ModifiedQDamage@ magic damage to the nearest enemies<br>2: Heal the lowest Health allies for @ModifiedWHeal@ Health<br>3: Deal @ModifiedEDamage@ magic damage to the nearest enemies and <TFTKeyword>Stun</TFTKeyword> them for @StunDuration@ seconds<br><br><tftitemrules><tftbold>Stun</tftbold>: cannot move, attack, or cast Abilities</tftitemrules>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/tft8_sona/hud/icons2d/tft8_sona_eyeofthestorm.tft_set8.png",
+            "name": "Crescendo Sequence"
+        },
+        "apiName": "TFT8_Sona",
+        "cost": 3,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_sona.tft_set8.png",
+        "name": "Sona",
+        "stats": { "armor": 25, "damage": 40, "hp": 650, "magicResist": 25 },
+        "traits": ["Underground", "Spellslinger", "Heart"],
+        "id": 37
+    },
+    {
+        "ability": {
+            "desc": "Lulu fires a magic bolt at her target, dealing @ModifiedDamage@ magic damage to the first enemy hit and @SecondaryModifiedDamage@ to other enemies behind.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/lulu/hud/icons2d/lulu_commandpix.png",
+            "name": "Glitterlance"
+        },
+        "apiName": "TFT8_Lulu",
+        "cost": 1,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_lulu.tft_set8.png",
+        "name": "Lulu",
+        "stats": { "armor": 15, "damage": 30, "hp": 500, "magicResist": 15 },
+        "traits": ["Gadgeteen", "Heart"],
+        "id": 117
+    },
+    {
+        "ability": {
+            "desc": "Zoe launches a bubble at the nearest non-infected enemy, infecting them with a virus that deals @ModifiedDamage@ magic damage over @Duration@ seconds. Infected enemies take @PercentDamageIncrease*100@% more damage.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/zoe/hud/icons2d/zoe_e.png",
+            "name": "Trouble Bubble"
+        },
+        "apiName": "TFT8_Zoe",
+        "cost": 3,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_zoe.tft_set8.png",
+        "name": "Zoe",
+        "stats": { "armor": 20, "damage": 40, "hp": 600, "magicResist": 20 },
+        "traits": ["Gadgeteen", "Prankster", "Hacker"],
+        "id": 142
+    },
+    {
+        "ability": {
+            "desc": "Passive: Nunu and Willump roll a ball around the arena towards the furthest enemy. The ball deals @ModifiedDamage@ magic damage to all enemies it passes through. When they reach their target, they will find a new destination. Nunu and Willump gain @ManaPerSecond@ Mana per second.<br><br>Active: Nunu and Willump grow the ball, increasing their movement speed, the size of the ball, and the amount of damage by @IncreasedDamagePercent*100@%.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/nunu/hud/icons2d/nunuw1.png",
+            "name": "Biggest Roboball Ever!"
+        },
+        "apiName": "TFT8_Nunu",
+        "cost": 5,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_nunu.tft_set8.png",
+        "name": "Nunu & Willump",
+        "stats": { "armor": 55, "damage": 0, "hp": 1337, "magicResist": 55 },
+        "traits": ["Gadgeteen", "Mascot"],
+        "id": 20
+    },
+    {
+        "ability": {
+            "desc": "Blitzcrank creates an empowered field around himself, reducing all damage taken by <scaleAP>@ModifiedDR@</scaleAP> for @Duration@ seconds.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/blitzcrank/hud/icons2d/blitzcrank_manabarrier.png",
+            "name": "Static Defenses"
+        },
+        "apiName": "TFT8_Blitzcrank",
+        "cost": 1,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_blitzcrank.tft_set8.png",
+        "name": "Blitzcrank",
+        "stats": { "armor": 45, "damage": 50, "hp": 650, "magicResist": 45 },
+        "traits": ["A.D.M.I.N.", "Brawler"],
+        "id": 53
+    },
+    {
+        "ability": {
+            "desc": "Camille sweeps with her leg, dealing <scaleAD>@TotalDamage@</scaleAD> physical damage (@PercentAD*100@% Attack Damage %i:scaleAD% + @ModifiedBonusDamage@) and <TFTKeyword>Disarming</TFTKeyword> enemies hit for @DisarmDuration@ seconds.<br><br><tftitemrules><tftbold>Disarm</tftbold>: target cannot move or attack</tftitemrules>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/camille/hud/icons2d/camille_e2.png",
+            "name": "Tactical Sweep"
+        },
+        "apiName": "TFT8_Camille",
+        "cost": 2,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_camille.tft_set8.png",
+        "name": "Camille",
+        "stats": { "armor": 45, "damage": 65, "hp": 750, "magicResist": 45 },
+        "traits": ["A.D.M.I.N.", "Renegade"],
+        "id": 164
+    },
+    {
+        "ability": {
+            "desc": "Gangplank sheds crowd control effects, then fires a flaming bullet at his target. It deals @ModifiedDamage@ magic damage and @HealingReductionPct@% <TFTKeyword>Wounds</TFTKeyword> the enemy for for @Duration@ seconds.<br><br><tftitemrules><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/gangplank/hud/icons2d/gangplank_q.png",
+            "name": "Trial by Fire"
+        },
+        "apiName": "TFT8_Gangplank",
+        "cost": 1,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_gangplank.tft_set8.png",
+        "name": "Gangplank",
+        "stats": { "armor": 30, "damage": 45, "hp": 650, "magicResist": 30 },
+        "traits": ["Supers", "Duelist"],
+        "id": 41
+    },
+    {
+        "ability": {
+            "desc": "Lee Sin dashes towards a nearby ally, shielding them and himself for @ModifiedShieldAmount@ Health for @Duration@ seconds. He then dashes back and deals <scaleAD>@TotalDamage@</scaleAD> physical damage (@ADPercent@% Attack Damage %i:scaleAD%) to his target.<br><br>If there are no nearby allies, he gains a @DoubledShieldAmount@ Health shield instead.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/leesin/hud/icons2d/blindmonkwone.png",
+            "name": "Safeguard"
+        },
+        "apiName": "TFT8_LeeSin",
+        "cost": 2,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_leesin.tft_set8.png",
+        "name": "Lee Sin",
+        "stats": { "armor": 45, "damage": 60, "hp": 700, "magicResist": 45 },
+        "traits": ["Supers", "Heart", "Brawler"],
+        "id": 64
+    },
+    {
+        "ability": {
+            "desc": "Malphite slams the ground, dealing @ModifiedDamage@ magic damage to nearby enemies and granting himself @ArmorAmount@ Armor for @Duration@ seconds. ",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/malphite/hud/icons2d/malphite_groundslam.png",
+            "name": "Ground Slam"
+        },
+        "apiName": "TFT8_Malphite",
+        "cost": 2,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_malphite.tft_set8.png",
+        "name": "Malphite",
+        "stats": { "armor": 45, "damage": 60, "hp": 700, "magicResist": 45 },
+        "traits": ["Supers", "Mascot"],
+        "id": 54
+    },
+    {
+        "ability": {
+            "desc": "Vel'koz <TFTKeyword>Stuns</TFTKeyword> the enemy champion that has dealt the most damage this round for @FreezeDuration@ seconds and deals @ModifiedDamage@ magic damage to them. <br><br><tftitemrules><tftbold>Stun</tftbold>: cannot move, attack, or cast Abilities</tftitemrules>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/velkoz/hud/icons2d/velkoz_w.png",
+            "name": "Frozen Tomb"
+        },
+        "apiName": "TFT8_Velkoz",
+        "cost": 3,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_velkoz.tft_set8.png",
+        "name": "Vel'Koz",
+        "stats": { "armor": 30, "damage": 50, "hp": 750, "magicResist": 30 },
+        "traits": ["Threat"],
+        "id": 161
+    },
+    {
+        "ability": {
+            "desc": "Passive: +@PassiveMR@ Magic Resist<br><br>Active: Cho'gath breathes a cosmic beam in a forward arc that deals <scaleMR>@TotalDamage@</scaleMR> magic damage (@MRPercent*100@% Magic Resist %i:scaleMR% + @ModifiedBonusDamage@) and @ManaReave@% <TFTKeyword>Mana Reaves</TFTKeyword> the target.<br><br><tftitemrules><tftbold>Mana Reave</tftbold>: increase maximum Mana until the next cast</tftitemrules>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/chogath/hud/icons2d/greenterror_feralscream.png",
+            "name": "Cosmic Bellow"
+        },
+        "apiName": "TFT8_Chogath",
+        "cost": 3,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_chogath.tft_set8.png",
+        "name": "Cho'Gath",
+        "stats": { "armor": 55, "damage": 60, "hp": 950, "magicResist": 55 },
+        "traits": ["Threat"],
+        "id": 31
+    },
+    {
+        "ability": {
+            "desc": "Aurelion Sol calls down @NumMeteors@ meteors on random enemies. Meteors deal @ModifiedDamage@ magic damage, then @PercentBurn@% <TFTKeyword>Burn</TFTKeyword> and  @HealingReduction@% <TFTKeyword>Wound</TFTKeyword> enemies for @Duration@ seconds. <br><br><tftitemrules><tftbold>Burn</tftbold>: deals some of the target's maximum Health as true damage<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/brand/hud/icons2d/brandpillarofflame.png",
+            "name": "Meteor Shower"
+        },
+        "apiName": "TFT8_AurelionSol",
+        "cost": 4,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_aurelionsol.tft_set8.png",
+        "name": "Aurelion Sol",
+        "stats": { "armor": 30, "damage": 40, "hp": 850, "magicResist": 30 },
+        "traits": ["Threat"],
+        "id": 136
+    },
+    {
+        "ability": {
+            "desc": "Passive: +@PassiveArmor@ Armor<br> <br>Active: Rammus powers himself up and leaps to the largest group of nearby enemies, dealing <scaleArmor>@TotalDamage@</scaleArmor> magic damage (@PercentArmor*100@% Armor %i:scaleArmor% + @ModifiedBonusDamage@), knocking them up for @StunDuration@ seconds, and reducing their Attack Damage %i:scaleAD% by @ADreduction@% for @ADReductionDuration@ seconds.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/rammus/hud/icons2d/armordillo_recklesscharge.png",
+            "name": "Sand Slam"
+        },
+        "apiName": "TFT8_Rammus",
+        "cost": 3,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_rammus.tft_set8.png",
+        "name": "Rammus",
+        "stats": { "armor": 55, "damage": 60, "hp": 950, "magicResist": 55 },
+        "traits": ["Threat"],
+        "id": 33
+    },
+    {
+        "ability": {
+            "desc": "Bel'Veth dashes around her target and unleashes a flurry of @NumAttacks@ attacks (@ASMult*100@% of her Attacks per second), each dealing <scaleAD>@TotalDamage@</scaleAD> physical damage (@ADMult*100@% Attack Damage %i:scaleAD% + @ModifiedBonusDamage@).<br><br>Each time this is cast, Bel'Veth gains @ASPerCast@% bonus Attack Speed for the rest of combat.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/belveth/hud/icons2d/belveth_passive.belveth.png",
+            "name": "Endless Banquet"
+        },
+        "apiName": "TFT8_BelVeth",
+        "cost": 4,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_belveth.tft_set8.png",
+        "name": "Bel'Veth",
+        "stats": { "armor": 50, "damage": 80, "hp": 1000, "magicResist": 50 },
+        "traits": ["Threat"],
+        "id": 200
+    },
+    {
+        "ability": {
+            "desc": "Passive: Upon dying, split into @ZacBlobCount@ smaller Zac Blobs with @HealthPercent*100@% of Zac's maximum Health that taunt nearby enemies. <br><br>Active: Zac bounces into the air and slams down, dealing @ModifiedDamage@ + @HPPercentDamage*100@% of his current Health as magic damage to nearby enemies. Then he heals @HPPercentHeal*100@% of his missing Health.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/zac/hud/icons2d/zacw.png",
+            "name": "Symbiotic Split"
+        },
+        "apiName": "TFT8_Zac",
+        "cost": 4,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_zac.tft_set8.png",
+        "name": "Zac",
+        "stats": { "armor": 65, "damage": 60, "hp": 1050, "magicResist": 65 },
+        "traits": ["Threat"],
+        "id": 154
+    },
+    {
+        "ability": {
+            "desc": "Passive: Urgot's claw fires @AttacksPerSecond@ attacks per second, each dealing @DamagePerShot@ (<scaleAD>@ADModified@</scaleAD>+<scaleAS>@ASModified@</scaleAS>) physical damage.<br><br>Active: Urgot summons a gigantic wave behind his enemies that deals @MaxHPPercent*100@% of their maximum Health as magic damage. The wave knocks enemies forward 1 hex, <TFTKeyword>Stuns</TFTKeyword> them for @StunDuration@ seconds, and has a <scaleAP>@ModifiedTreasureChance@</scaleAP> chance to dredge up treasure (gold and loot).<br><br><tftitemrules><tftbold>Stun</tftbold>: cannot move, attack, or cast Abilities</tftitemrules>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/nami/hud/icons2d/namir.png",
+            "name": "Undertow"
+        },
+        "apiName": "TFT8_Urgot",
+        "cost": 5,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_urgot.tft_set8.png",
+        "name": "Urgot",
+        "stats": { "armor": 50, "damage": 80, "hp": 1100, "magicResist": 50 },
+        "traits": ["Threat"],
+        "id": 6
+    },
+    {
+        "ability": {
+            "desc": "Fiddlesticks teleports into the largest cluster of enemies and fears them for @StunDuration@ seconds. For the next @UltDuration@ seconds, Fiddlesticks drains the life from nearby enemies dealing @ModifiedDamage@ magic damage per second and healing for @DrainPercent@% of the damage dealt.<br>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/fiddlesticks/hud/icons2d/fiddlesticks_crowstormsurprise.png",
+            "name": "Dark Harvest"
+        },
+        "apiName": "TFT8_Fiddlesticks",
+        "cost": 5,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_fiddlesticks.tft_set8.png",
+        "name": "Fiddlesticks",
+        "stats": { "armor": 70, "damage": 50, "hp": 1300, "magicResist": 70 },
+        "traits": ["Corrupted", "Threat"],
+        "id": 9
+    },
+    {
+        "ability": {
+            "desc": "Yuumi fires a curved missile at the furthest target in her attack range, dealing @ModifiedDamage@ magic damage to the first unit hit.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/yuumi/hud/icons2d/yuumiq2.png",
+            "name": "Prowling Projectile"
+        },
+        "apiName": "TFT8_Yuumi",
+        "cost": 2,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_yuumi.tft_set8.png",
+        "name": "Yuumi",
+        "stats": { "armor": 20, "damage": 40, "hp": 550, "magicResist": 20 },
+        "traits": ["Star Guardian", "Mascot", "Heart"],
+        "id": 350
+    },
+    {
+        "ability": {
+            "desc": "Yasuo fires a whirlwind at his target dealing @ModifiedDamage@ magic damage and knocking up units hit for @KnockupDuration@ seconds. If the current position isn't ideal, he will dash up to 1 hex in order to find more units in a line.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/tft8_yasuo/hud/icons2d/tft8_yasuo_q3.tft_set8.png",
+            "name": "Steel Tempest"
+        },
+        "apiName": "TFT8_Yasuo",
+        "cost": 2,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_yasuo.tft_set8.png",
+        "name": "Yasuo",
+        "stats": { "armor": 40, "damage": 45, "hp": 750, "magicResist": 40 },
+        "traits": ["LaserCorps", "Duelist"],
+        "id": 157
+    },
+    {
+        "ability": {
+            "desc": "Poppy throws her buckler at the farthest enemy, dealing @PercentArmorDamage*100@% of her Armor as magic damage. (total: @TotalDamage@) The buckler then bounces back, granting Poppy a shield that blocks @ModifiedShield@ damage.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/poppy/hud/icons2d/poppy_passive.png",
+            "name": "Buckler Toss"
+        },
+        "apiName": "TFT8_Poppy",
+        "cost": 1,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_poppy.tft_set8.png",
+        "name": "Poppy",
+        "stats": { "armor": 45, "damage": 60, "hp": 650, "magicResist": 45 },
+        "traits": ["Gadgeteen", "Defender"],
+        "id": 78
+    },
+    {
+        "ability": {
+            "desc": "Talon jumps to the furthest unit from the center of the board and stabs them for @ModifiedDamage@ magic damage. If this kills them, Talon heals for @HealAmount@ Health.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/tft8_talon/hud/icons2d/tft8_talonq.tft_set8.png",
+            "name": "OX-ian Diplomacy"
+        },
+        "apiName": "TFT8_Talon",
+        "cost": 1,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_talon.tft_set8.png",
+        "name": "Talon",
+        "stats": { "armor": 25, "damage": 50, "hp": 600, "magicResist": 25 },
+        "traits": ["Ox Force", "Renegade"],
+        "id": 91
+    },
+    {
+        "ability": {
+            "desc": "Renekton empowers himself for @Duration@ seconds, gaining @ModifiedBonusHealth@ maximum Health, and causing his attacks to deal @MaximumHealthPercent*100@% of his maximum Health as bonus magic damage. ",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/tft8_renekton/hud/icons2d/tft8_renekton_r.tft_set8.png",
+            "name": "Dominus"
+        },
+        "apiName": "TFT8_Renekton",
+        "cost": 1,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_renekton.tft_set8.png",
+        "name": "Renekton",
+        "stats": { "armor": 40, "damage": 50, "hp": 650, "magicResist": 40 },
+        "traits": ["LaserCorps", "Brawler"],
+        "id": 58
+    },
+    {
+        "ability": {
+            "desc": "Wukong spins his staff around him, dealing @ModifiedDamage@ magic damage to nearby enemies. He gains @DefenseGain@ Armor and Magic Resist for each enemy hit for @Duration@ seconds.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/tft8_wukong/hud/icons2d/tft8_wukongcyclone.tft_set8.png",
+            "name": "Stone Skin"
+        },
+        "apiName": "TFT8_WuKong",
+        "cost": 1,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_wukong.tft_set8.png",
+        "name": "Wukong",
+        "stats": { "armor": 40, "damage": 60, "hp": 650, "magicResist": 40 },
+        "traits": ["Mecha:PRIME", "Defender"],
+        "id": 62
+    },
+    {
+        "ability": {
+            "desc": "Ezreal fires an orb of physical sabotage at his target, @ASReduce@% <TFTKeyword>Chilling</TFTKeyword> them for @Duration@ seconds. Then he fires another shot, which deals @TotalDamage@ magic damage to the target and nearby enemies.<br><br><tftitemrules><tftbold>Chill</tftbold>: reduce Attack Speed</tftitemrules>",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/tft8_ezreal/hud/icons2d/tft8_ezreal_w.tft_set8.png",
+            "name": "Sabotage "
+        },
+        "apiName": "TFT8_Ezreal",
+        "cost": 2,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_ezreal.tft_set8.png",
+        "name": "Ezreal",
+        "stats": { "armor": 20, "damage": 55, "hp": 550, "magicResist": 20 },
+        "traits": ["Underground", "Recon"],
+        "id": 81
+    },
+    {
+        "ability": {
+            "desc": "Soraka launches a star at her target, which deals @ModifiedDamage@ magic damage and heals Soraka for @PercentMaxHP*100@% of her maximum Health. Every @EmpoweredCast@ casts, she launches @EmpoweredStars@ stars at each of the nearest enemies.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/tft8_soraka/hud/icons2d/tft8_soraka_q.tft_set8.png",
+            "name": "Starcall"
+        },
+        "apiName": "TFT8_Soraka",
+        "cost": 4,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_soraka.tft_set8.png",
+        "name": "Soraka",
+        "stats": { "armor": 30, "damage": 50, "hp": 750, "magicResist": 30 },
+        "traits": ["A.D.M.I.N.", "Heart"],
+        "id": 16
+    },
+    {
+        "ability": {
+            "desc": "Leblanc fires @SigilAmt@ sigils at her target, each dealing @ModifiedDamage@ magic damage. If the target dies, she completes casting the remaining sigils at the nearest enemy but adds @SigilOnKill@ more sigil.",
+            "icon": "https://raw.communitydragon.org/12.23/game/assets/characters/tft8_leblanc/hud/icons2d/tft8_leblancrq.tft_set8.png",
+            "name": "Sigil of Malice"
+        },
+        "apiName": "TFT8_Leblanc",
+        "cost": 3,
+        "icon": "https://raw.communitydragon.org/12.23/game/assets/ux/tft/championsplashes/tft8_leblanc.tft_set8.png",
+        "name": "LeBlanc",
+        "stats": { "armor": 30, "damage": 45, "hp": 650, "magicResist": 30 },
+        "traits": ["A.D.M.I.N.", "Spellslinger", "Hacker"],
+        "id": 7
+    }
+]
